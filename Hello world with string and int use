@@ -1,0 +1,49 @@
+;
+
+namespace lab2
+{
+    public class
+Program    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("{0}\n{1}", "Hello world", "From Brady Valentine");
+
+            Console.WriteLine("Hello world!" +  " From Brady Valentine");
+
+            {
+                int number1;
+                int number2;
+                int sum;
+
+                Console.Write("Enter first Number: ");
+                number1 = Convert.ToInt32(Console.ReadLine());
+
+                Console.Write("Enter second number: ");
+                number2 = Convert.ToInt32(Console.ReadLine());
+
+                sum = number1 * number2;
+
+                Console.WriteLine("sum is {0}", sum);
+
+                Console.ReadLine();
+
+         
+                
+
+
+
+
+            }
+            
+
+
+            //c# program executes at line 9 when it reaches the first console write line.
+            /*An int type variable is a whole number while a double variable is more percise allowing a decimal.Int variables dont allow decimals like the doubles do. */
+            /*c. An example is when they created a bank account a had to created a method using "get" to recieve a name from the user imput to use for the account.They used "public void SetName()".*/
+            //d. to read the value of the instance variable we use "get" and for assigning a value we use "set" accessor.
+            /*e.A class defines what will be inside the code and gives a base to what is allowed to be used, you may use as many instances as you want inside of your classes and these will be considered objects of your methods used. The main difference between object and class is object is talking about specific actions that get information while a class gives the program an idea or basis to follow.*/
+
+
+        }
+
+        
