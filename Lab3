@@ -1,0 +1,91 @@
+using System;
+
+namespace Lab3
+{
+    class Program
+    /*The single if statement runs one single time and then moves to next statement in code, The while loop continues to run the code over and over until the value is false and then moves on. */
+    {
+        static void Main(string[] args)
+
+
+        {
+            int speed = 42;
+            int speedLimit = 35;
+
+            if (speed > speedLimit)
+            {
+
+                Console.WriteLine("SLOW NOW!");
+
+            }
+
+            bool isTrue = false;
+            if (isTrue)
+            {
+                Console.WriteLine("It is true!");
+
+
+            }
+            else
+            {
+
+                Console.WriteLine("It is false!");
+                //right now the code will display "it is false!" because the value isnt true.
+
+            }
+
+
+            {
+                double Fahrenheit;
+                double celsius;
+
+                {
+                    Console.Write("Enter Temp in Fahrenhite that will be converted to Celsius: ");
+                    Fahrenheit = Convert.ToDouble(Console.ReadLine());
+                    celsius = (Fahrenheit - 32) * 5 / 9;
+
+
+                }
+                Console.WriteLine($"temperature in celsius is" + celsius);
+                Console.ReadLine();
+
+
+                int i = 0;
+                while (i <= 10)
+                {
+                    Console.WriteLine(i++);
+
+                }
+                int b = 60;
+                int c = 20;
+
+                while (b >= c && c <= b)
+                {
+                    Console.WriteLine(b);
+                    b -= 5;
+
+
+                }
+
+                int t = 20;
+                int r = 10;
+                while (t >= r)
+                {
+                    Console.WriteLine(r);
+                    r += 2;
+
+
+                }
+
+
+            }
+
+
+
+
+
+
+
+        }
+
+    }
