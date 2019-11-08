@@ -3,7 +3,7 @@ using System;
 namespace Lab3
 {
     class Program
-    /*The single if statement runs one single time and then moves to next statement in code, The while loop continues to run the code over and over until the value is false and then moves on. */
+    /*The single if statement runs one single time and then moves to next statement in code, The while loop continues to run the code over and over until the value is false and then moves on. they both have in common that if the condition is false it wont execute and it will move on to the next following statements */
     {
         static void Main(string[] args)
 
