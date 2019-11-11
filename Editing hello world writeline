@@ -10,7 +10,7 @@ namespace Lab01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello Professor from Brady Valentine");
+            Console.WriteLine("hello Professor from Brady Valentinooo");
             Console.ReadLine();
         }
     }
