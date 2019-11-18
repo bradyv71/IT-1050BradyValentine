@@ -1,0 +1,108 @@
+namespace classworkmethodsWeek8
+{
+    class Program
+    {
+        //public static int ConvertToInt { get; private set; }
+
+        //static void Main(string[] args)
+        //{
+        //Console.WriteLine("please Enter magnitude of earthquake: ");
+        //int magnitude = Convert.ToInt32(Console.ReadLine());
+
+        //if (magnitude < 5)
+        //{
+        //    Console.WriteLine("Small");
+        //}
+        //else if( magnitude<=6 && magnitude>= 4)
+        //{
+        //    Console.WriteLine("moderate");
+        //}
+        //else if (magnitude <= 8 && magnitude >= 6)
+        //{
+        //    Console.WriteLine("major");
+        //}
+        //else if (magnitude <= 10 && magnitude >= 7)
+        //{
+        //    Console.WriteLine("very strong");
+        //}
+        //Console.ReadLine();
+
+        //switch(magnitude)
+        //{
+        //    case 4:
+        //        Console.WriteLine("small earthquake");
+        //        break;
+        //    case 5:
+        //        Console.WriteLine("moderate earthquake");
+        //        break;
+        //    case 6:
+        //        Console.WriteLine("slightly moderate");
+        //        break;
+        //    case 7:
+        //        Console.WriteLine("medium earthquake");
+        //        break;
+        //    case 8:
+        //        Console.WriteLine("strong earthquake");
+        //        break;
+        //    default:
+        //        Console.WriteLine("undefined maginitude");
+        //        break;
+        //int temperature = 38;
+        //int amountOfSnow = 5;
+        //if (temperature < 40 && amountOfSnow > 1)
+        //    Console.WriteLine("enter temperature: ");
+        //   temperature=Convert.ToInt32(Console.ReadLine());
+        //Console.WriteLine("please enter amount of snow: ");
+        //   amountOfSnow= Convert.ToInt32(Console.ReadLine());
+        //{
+        //    Console.WriteLine("Build a SNOWMAN!!");
+        //}
+
+
+
+        //non static call method
+        static void Main(string[] args)
+        {
+            simpleMath mathObject = new simpleMath();
+            int sum = mathObject.Add(100, 100);
+            System.Console.WriteLine(sum);
+
+            
+            
+        }
+    }
+
+
+    class simpleMath
+    {
+        public int Add(int a, int b)
+        {
+            int sum;
+            sum = a + b;
+            return sum;
+
+        }
+        
+        public int subtract(int a ,int b)
+        {
+            int sum;
+            sum = a - b;
+            return sum;
+        }
+        public static int Divide(int a, int b)
+        {
+            return a / b;
+            
+        }
+        
+
+
+        
+
+    }
+
+    
+
+
+
+    }
