@@ -1,0 +1,114 @@
+using System;
+using System.Collections.Generic;
+
+namespace Midterm
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            //int keepLooping = 3;
+            //while (keepLooping > 2)
+            //{
+            //    Console.WriteLine(keepLooping++);
+
+            //}
+            //for(int i = 2; i <= 64; i= i * 2)
+            //{
+            //    Console.WriteLine($"[{i}]");
+            //}
+
+            int number = 2;
+
+            while (number <= 64)
+            {
+                if (number != 2)
+                {
+                    Console.WriteLine($"\n[{number}]");
+                    number = number * 2;
+                }
+
+                if (number == 2)
+                {
+                    Console.WriteLine($"\n[{number}]");
+                    number = number * 2;
+                }
+
+                if (number > 64)
+                {
+                    break;
+                }
+
+            }
+
+
+
+
+            //var numberList = new List<int>();
+
+            //for(int i = 49; i > 0; i--)
+            //{
+            //    numberList.Add(i);
+            //}
+
+            //var numberString = string.Join(',', numberList);
+            //Console.WriteLine(numberString);
+
+
+            //for (int i = 49; i > 0; i--)
+            //    if (i >= 1)
+            //    {
+            //        if (i == 1)
+            //        {
+            //            Console.WriteLine($"{i}");
+            //            return;
+            //        }
+
+            //        Console.Write($"{i} , ");
+            //    }
+            //int r = 1;
+            //while(r<=21)
+            //{
+            //    if (r % 2 == 1)
+            //    Console.Write($"{r} ");
+            //    r++;
+
+
+            //}
+            //int n = 8;
+            //int i = 10; // initialize
+            //do
+            //{
+            //    Console.Write("*");
+            //    i++; // update!
+            //} while (i < n); // test condition
+            ///* The first application to test all that ran in the console is a an asteriks symbol. When we correct the code and change it to a regular while loop it wont run at all because the first condition is false , but in a do while statement it akways runs at least 1 time then checks the condition. */
+
+
+            //Boolean icyRain=32;
+            //Boolean tornadoWarning=60;
+            //if(icyRain !< 32 && tornadoWarning >!90)
+            //{
+            //    if)
+
+
+            }
+            
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
