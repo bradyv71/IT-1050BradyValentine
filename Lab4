@@ -7,107 +7,106 @@ namespace Lab4
         static void Main(string[] args)
 
         {
-            //for (int i = 0; i <= 100; i++)
-            //{
-            //    Console.WriteLine(i);
-            //}
-            //for (int i = 0; i <= 100; i++)
-            //{
-            //    if (i % 2 == 0) { Console.WriteLine("it is even! " + i); }
+            for (int i = 0; i <= 100; i++)
+            {
+                Console.WriteLine(i);
+            }
+            for (int i = 0; i <= 100; i++)
+            {
+                if (i % 2 == 0) { Console.WriteLine("it is even! " + i); }
 
-            //    else if (i % 2 == 1) { Console.WriteLine("It is odd! " + i); }
-            //}
-
-
-
-
-
-            //int polarBear;
-            //int penguin;
-            //int moose;
-            //int reinDeer;
-            //int deer;
-            //int turtle;
-            //int lion;
-            //int fish;
-
-            //{
-
-            //    string value;
-            //    Console.Write("please enter a temperature: ");
-            //    value = Console.ReadLine();
-            //    {
-            //        polarBear = Convert.ToInt32(value);
-            //        penguin = Convert.ToInt32(value);
-            //        moose = Convert.ToInt32(value);
-            //        reinDeer = Convert.ToInt32(value);
-            //        deer = Convert.ToInt32(value);
-            //        turtle = Convert.ToInt32(value);
-            //        lion = Convert.ToInt32(value);
-            //        fish = Convert.ToInt32(value);
-
-            //    }
-
-            //}
-            //if (polarBear <= 19)
-            //{
-            //    Console.WriteLine("polar bear");
-            //}
-            //else if (penguin >= 20 && penguin <= 39)
-            //{
-            //    Console.WriteLine("Penguin");
-            //}
-            //else if (moose >= 40 && moose <= 49)
-            //{
-            //    Console.WriteLine("Moose");
-            //}
-            //else if (reinDeer >= 50 && reinDeer <= 49)
-            //{
-            //    Console.WriteLine("Rein Deer");
-            //}
-            //else if (deer >= 60 && deer <= 69)
-            //{
-            //    Console.WriteLine("Deer");
-            //}
-            //else if (turtle >= 70 && turtle <= 79)
-            //{
-            //    Console.WriteLine("Turtle");
-            //}
-            //else if (lion >= 80 && lion <= 89)
-            //{
-            //    Console.WriteLine("Lion");
-            //}
-            //else if (fish >= 90 && fish <= 100)
-            //{
-            //    Console.WriteLine("Fish");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("bug");
-
-            //}
-
-
-            //int k = 10;
-            //while (k < 21)
-            //{
-            //    Console.WriteLine(k);
-            //    k++;
-
-            //}
-            //for (int t = 0; t < 101; t++)
-            //    Console.WriteLine(t + "\n" + "*******");
-            ///*  */
+                else if (i % 2 == 1) { Console.WriteLine("It is odd! " + i); }
+            }
 
 
 
 
 
-        }
+            int polarBear;
+            int penguin;
+            int moose;
+            int reinDeer;
+            int deer;
+            int turtle;
+            int lion;
+            int fish;
+
+            {
+
+                string value;
+                Console.Write("please enter a temperature: ");
+                value = Console.ReadLine();
+                {
+                    polarBear = Convert.ToInt32(value);
+                    penguin = Convert.ToInt32(value);
+                    moose = Convert.ToInt32(value);
+                    reinDeer = Convert.ToInt32(value);
+                    deer = Convert.ToInt32(value);
+                    turtle = Convert.ToInt32(value);
+                    lion = Convert.ToInt32(value);
+                    fish = Convert.ToInt32(value);
+
+                }
+
+            }
+            if (polarBear <= 19)
+            {
+                Console.WriteLine("polar bear");
+            }
+            else if (penguin >= 20 && penguin <= 39)
+            {
+                Console.WriteLine("Penguin");
+            }
+            else if (moose >= 40 && moose <= 49)
+            {
+                Console.WriteLine("Moose");
+            }
+            else if (reinDeer >= 50 && reinDeer <= 49)
+            {
+                Console.WriteLine("Rein Deer");
+            }
+            else if (deer >= 60 && deer <= 69)
+            {
+                Console.WriteLine("Deer");
+            }
+            else if (turtle >= 70 && turtle <= 79)
+            {
+                Console.WriteLine("Turtle");
+            }
+            else if (lion >= 80 && lion <= 89)
+            {
+                Console.WriteLine("Lion");
+            }
+            else if (fish >= 90 && fish <= 100)
+            {
+                Console.WriteLine("Fish");
+            }
+            else
+            {
+                Console.WriteLine("bug");
+
+            }
 
 
-    }
+            int k = 10;
+            while (k < 21)
+            {
+                Console.WriteLine(k);
+                k++;
+
+            }
+            for (int t = 0; t < 101; t++)
+                Console.WriteLine(t + "\n" + "*******");
+            /* The four basic elements to counter controll are declaring a counter variable to use, providing a increment or decrement to use on the variable ,.declaring the condition in which the controll will either continue to repeat the statement or go on to the next, declare an initial value for the variable. */
+
+            /* The while condition is defined in the body of the statement and the for condition is initialized in the beginning line of the statement.they are almost identical but the for loop is used more.  */ 
+
+            /*It would be better to use a do while over a while when you want the program to be ran at least once and also if the body needs ran at least once then check the condition to see if it is true to continue. */
+
+        }    
+
 
     }
-    
+
+}
 
