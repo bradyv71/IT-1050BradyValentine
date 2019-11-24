@@ -1,0 +1,36 @@
+using System;
+
+namespace Lab5
+{
+    class Program
+    {
+        public static void Main(String[] args)
+        {
+            Dog myDog = new Dog();
+            myDog.Bark();
+            myDog.doTrick("trick");
+        }
+
+
+        class Dog
+        { 
+            public string name = "clifford";
+            public void Bark()
+            {
+                Console.WriteLine("{0} is Barking...", name);
+            }
+
+            public void doTrick(string trickName)
+            {
+                Console.WriteLine("{0} is so smart!  {0} is doing a(n) {1}", name, trickName);
+            }
+            /*Because it is public it means that it can be used anywhere in the class unless it was private then the scope would be limited to just that class. B. this example is a non static and non static is a method determined by the code writer and it is different from static which are predefined method types such as “Math”.” “ Static methods can only be used with that certain class instance but non static is allowed to be used anywhere. C. Double, which is what kind of data will be returned if it is a string or an int or double, those are all valid return types.  D.getArea ,describes what is taking place in the method here, the identifier is used when calling the method to be used. E. Parameters are height and width, which are the properties your going to be setting and getting back, your using a double here for more accuracy instead of an int with less precision. F. the method body is what is in brackets below the method header, which is the “return height * width;” */
+
+
+            /*3. The difference between a user defined method and a method that is provided with framework would be static vs non static methods,A user defined method is one that is defined by the user and the standards and parameters are set by the writer of the code while the provided framework has a set method to use such as math or subtract. We should always consider If there is a static method for your problem or if you have to come up with one yourself, also if you want it to be public or private so it will only be accessed and used in that class or used and pulled in the whole program.  */
+
+            /*The difference between static and non static is the provided framework used in static methods vs the non static methods you write and determine your self. Static methods may only be used in that specific class and not pulled from like non static public classes. In non static you may create your own objects determined by you but static has predetermined frameworks.  */
+        }
+    }
+}
+        
