@@ -1,0 +1,105 @@
+using System;
+
+namespace inclassworkMethods
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Course course1 = new Course("1050");
+            
+            course1.title = "Programming logic";
+            course1.maxEnrollment = 23;
+            course1.Display();
+            for(int i = 0; i < 28; i++)
+            {
+                course1.addStudent();
+
+            }
+            course1.Display();
+            course1.RoomNumber();
+            
+            
+         
+
+           
+           
+        }
+
+
+
+
+    }
+
+
+
+
+    class Course
+    {
+        public string courseNumber;
+        public int numberOfSeats;
+        public int currentEnrollment;
+        public int maxEnrollment;
+        public string title;
+        public string
+        //cuntroctor method
+        //no return type 
+        public Course(string courseNumber)
+        {
+            this.courseNumber = courseNumber;
+        }
+
+        public void Display()
+        {
+            Console.WriteLine($"Course: {courseNumber}\nTitle: {title}\nCurrent Enroll: { currentEnrollment}\n numberofseats: {numberOfSeats}\n max enrollment: {maxEnrollment}");
+            Console.WriteLine($"Remaining seats: {RemainingSeats()}");
+            Console.WriteLine($"IT rooms: {RoomNumber()}");
+        }
+        public void addStudent()
+        {
+
+            if (currentEnrollment < maxEnrollment)
+            {
+                currentEnrollment++;
+            }
+            else
+            {
+                Console.WriteLine("sorry the class is full");
+            }
+
+        }
+        public int RemainingSeats()
+        {
+            int remainingSeats;
+            remainingSeats = maxEnrollment - currentEnrollment;
+            return maxEnrollment - currentEnrollment;
+
+        }
+        public string RoomNumber(string roomNumber)
+        {
+            string roomNumber = "D204";
+            string roomNumber2 = "D205";
+            if (courseNumber.Substring(0, 2) == "IT")
+            {
+                Console.WriteLine("sorry, wrong class");
+            }
+            else if (roomNumber == "204" || roomNumber == "D205")
+            {
+                this.roomNumber = roomNumber;
+            }
+                        
+
+            
+
+        }
+
+
+
+    }      
+
+
+    
+        
+
+    
+}
