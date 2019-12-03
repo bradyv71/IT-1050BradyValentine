@@ -1,1 +1,84 @@
+using System;
+
+namespace Lab6
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            {
+                string[] months = new string[] { "1.January", "2.February", "3.March", "4.April", "5.May", "6.June", "7.July", "8.August", "9.September", "10.October", "11.November", "12.December" };
+                for (int i = 0; i < months.Length; i++)
+                {
+                    Console.WriteLine(months[i]);
+                }
+                {
+                    string[] seasons = new string[4];
+                    seasons[0] = "Spring";
+                    seasons[1] = "Summer";
+                    seasons[2] = "Fall";
+                    seasons[3] = "Winter";
+                    foreach (string season in seasons)
+                    {
+                        Console.WriteLine(season);
+                    }
+                    {
+                        Random random = new Random();
+                        int[] randomN = new int[1000];
+                        int randomNumber = 0;
+
+
+
+
+                        foreach (int randoms in randomN)
+
+                        {
+                            randomNumber = random.Next(0, 1000);
+
+                            Console.WriteLine(randomNumber);
+                        }
+
+                    }
+                    //string[] names =new string[5] { "Al Dente", "Anna Graham", "Earle Bird", "Ginger Rayle", "Iona Ford" };
+
+                    //int i = 0;
+
+                    //while (i < names.Length)
+
+
+
+                    //{
+                    //    Console.WriteLine(names[i]);
+                    //    i++;
+
+                    //}
+                    Console.WriteLine("please enter a number 0-4 to determine name and number for display: ");
+                    int i = Convert.ToInt32(Console.ReadLine());
+                    string[] names = new string[] { "Al Dente", "Anna Graham", "Earle Bird", "Ginger Rayle", "Iona Ford" };
+                    int[] nums = new int[] { 8, 3, 5, 6, 9 };
+
+                    {
+
+                        Console.WriteLine("{0,2}. {1}", i, names[i]);
+                    }
+
+
+
+
+
+
+
+
+
+
+                }
+            }
+
+        }
+
+    }
+}
+
+
+
 
