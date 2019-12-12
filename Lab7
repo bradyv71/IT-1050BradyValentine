@@ -1,0 +1,104 @@
+using System;
+
+namespace Lab7
+{
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            Book book1 = new Book();
+            book1.title = "first programming course";
+            book1.author = "Professor Leasure is the best";
+            book1.year = 2019;
+            book1.Display();
+
+
+        }
+        
+        
+
+        
+        
+            
+    }
+}
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Lab7
+{
+    public class Book
+    {
+        public Book()
+        {
+
+        }
+        public string title;
+        public string author;
+        public int year;
+        public Book(string title, string author, int year)
+        {
+            this.title = title;
+            this.author = author;
+            this.year = year;
+
+        }
+       
+        public void Title(string title)
+        {
+            this.title = title;
+        }
+        public void Author(string author)
+        {
+            this.author = author;
+        }
+        public void Year(int year)
+        {
+            this.year = year;
+        }
+
+ //Before creating a constructor we create a class which holds a group of information about a specific data. 
+ //It would be called overloading the constructor creating two constructors of the same type.
+ //Exception handling is so important because it prevents a program from crashing an corrects user inputs, correcting the issue in input
+ //*When adding properties or variables to our class if you make them private they will only be allowed for use in that specific class and wont appear if called from another class.It applys to information hiding because it is only useable from one class and wont show up unless in that class, protected from the public properties which may be called from any class. */
+ //Composition is when you are creating a parent object and then will have a child object use properties of that parent object to shorten code and make it more organized so your not re writing code you shouldnt have to.
+ //You could use composition in the book class by using Book as the parent and then creating an object bookTest to use books propeties, using the 3 variables from Book class.
+ //Data abstraction is using an abstract class to hide data along with using a private variable type to hide data from users.
+        public void Display()
+        {
+            Console.WriteLine(this.title);
+            Console.WriteLine(this.author);
+            
+        }
+
+
+
+    }
+}
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Lab7
+{
+    public class BookTest : Book
+    {
+        public BookTest()
+        {
+
+        }
+        public BookTest(string title, string author, int year)
+            : base(title, author, year)
+        {
+
+        }
+            
+        
+
+
+
+
+
+    }
+}
