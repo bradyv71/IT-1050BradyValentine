@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            Body{
+ font-family: Arial, Helvetica, sans-serif;
+ }
+ .title{
+     font-style: brown
+     
+ }
+ .subtitle{
+     font:color red;
+     font-size: 1.4em;
+ }
+ .footer{
+     font-weight: bold;
+ }
+        </style>
+     
+        <link rel="icon" href="coffee.ico">
+        <title style="color:red;">Brady's Coffee Cafe</title>
+        <meta name="description" content="Locally owned family coffee cafe">
+        <meta name="keywords" content="small, cafe, family owned, caring, low priced, coffee,Brady's, coffee ">
+
+
+
+        
+    </head>
+    <body style="font-family:Arial, Helvetica, sans-serif;">
+        <img src="images/coffee.png">
+       <div class="title">
+           <p>Welcome to Brady's Coffee Cafe!</p>
+           <p>We have pride in serving you the best coffee at the best price!</p>
+       
+
+       </div> 
+       <div class="subtitle">
+           <h3>Some of our local favorites</h3>
+           <ul>
+               <li>Homestyle special</li>
+               <li>California dark blend</li>
+               <li>Wide Awakening with extra espresso</li>
+               <li>Half and half delight</li>
+
+           </ul>
+       </div>
+       <div class="subtitle">
+           <p style="color:brown;">Some of our local customers reviews</p>
+           <blockquote>
+            -"In central area with lots of shops and restaurants. Stopped by for a quick coffee while it was a bit chilly outside. As good as Starbucks!"
+           </blockquote>
+           <blockquote>
+            -"It's everything you’d want in a coffee house – artsy, good music, free wifi, comfy atmosphere – and great coffee! The baristas are friendly, courteous and know what they’re doing. It’s become a regular stop for me when I’m in town . Far better than going to Starbucks or Panera!"
+           </blockquote>
+       </div>
+       <div class="footer">
+           <address>
+               Contact us at Bradyslocalcafe@mail.com
+               &copy;Brady Valentine
+
+           </address>
+
+       </div>
+
+       
+
+   
+</html>
