@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>James' Coffee Cafe</title>
+        <meta name="description" content="The best coffee in Cleveland!">
+        <meta name="keywords" content="coffee, cleveland, cafe">
+        <style>
+        body { font-family: Arial, Helvetica, sans-serif; 
+        max-width: 900px;
+        margin: 20px auto 20px auto;
+        padding: 20px 20px 40px 20px;
+        border: 2px solid black;
+        border-radius: 20px;
+        box-shadow: 0px 8px 8px 0px;
+        }
+        </style>
+    </head>
+    <body>
+    <main>
+        <img src="./images/coffee.png">
+        <h1 class="title">Welcome to James' Coffee Cafe</h1>
+        <p>At James' Coffee Cafe, we showcase local coffee talents alongside coffee from some of the world's best coffee roasters!</p>
+        <p class="subtitle">Some our local favorites:</p>
+        
+        <ul>
+            <li>Al Dente's Light Roast</li>
+            <li>Hackers-Only Surprise Roast</li>
+            <li>Sue Flay's Quick Medium Roast</li>
+            <li>Bonfire Dark Roast</li>
+        </ul>
+        
+        <p class="subtitle">See what our customers are saying:</p>
+        <p>
+            <blockquote>This is the best Coffee House in Cleveland!</blockquote>
+            <blockquote>There's no place like James' Coffee House in Cleveland. Great coffee!</blockquote>
+        </p>
+    </main>
+    </body>
+</html>
