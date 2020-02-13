@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--
+Instructions for the lab:
+_______________________________________________________________________________
+1. Download Lab4.html and the image triceratopslogo.jpg. 
+2. There are a few css properties in the file, leave them there. Use the css in 
+   Chapter 8, on page 289 to create a column layout with a header, main, aside 
+   and footer section.
+3. In the header, display the image. Next to the image, add a span element with
+   class="title". Add content to display your name.
+4. In the main section, add the following subtitles: Objectives, Courses 
+   Completed, Hobbies, and Favorite Books.
+5. Under the Objectives subtitle, add an unordered list your academic and 
+   professional goals.
+6. Under Courses Completed add an ordered list (with the default list type) 
+   with courses you've taken, are taking, or plan to take in the future.
+7. Under Hobbies, add an ordered list with list style set to "a" with at 
+   least 3 hobbies.
+8. Under Favorite Books, add an ordered list with list style set to "i" 
+   with at least 3 books.  
+9. In the aside, add a link to your github repository under the 
+   subtitle "Code Examples".
+10. Add an unordered list of organizations that you belong to under the 
+    subtitle "Organizations".
+11. In the footer, center align your email address.
+12. The background should be set to "teal" for the body. The background for 
+    any content sections: main, aside, header, footer should be set to "white".
+-->
+<html>
+    <head>
+        <title>Brady Valentine</title>
+        <style>
+        body { font-family: Arial, Helvetica, sans-serif;
+        background-color: teal;
+        width:90%;
+        max-width: 1024px;
+        margin: 0 auto;
+        border: 2px solid black;
+         }
+        .title { 
+            color: teal;
+            vertical-align: middle; }
+        .subtitle { font-size: 1.4em; color: orange; font-weight: bold; }
+        .asidetitle { font-size: 1.4em; color: #999999;
+        background-color: white;
+
+         }
+        .footer { font-weight: bold; }
+        header { 
+            color: teal;
+            font-size: 26px;
+            font-weight:bold;
+            height: 77px;
+            background-color: white;
+            width: 96.875%;
+            padding: 15px 1.5625%;
+            border-bottom: 2px solid black;
+            
+        }
+        main {
+            width:59.375%;
+            padding:15px 1.5625%;
+            float: left;
+            background-color: white;
+        }
+         
+
+        aside {
+            float: right;
+            width: 34.375%;
+            padding: 15px 1.5625%;
+            background-color: white;
+        } 
+       footer {
+           clear: both;
+           width: 96.875%;
+           padding: 15px 1.5625%;
+           border-top: 2px solid black;
+           background-color: white;
+           text-align: center;
+       }
+        
+                
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="./images/triceratopslogo.jpg">
+            <span class="title">Brady Valentine</span>
+        </header>
+        <main>
+                <p class="subtitle">Objectives
+                    <ul>
+                     <li>Complete my associates degree in programming and development.</li>
+                     <li>Get proficient at html, javascript, css, and c#.</li>
+                     <li>Get a good co-op before graduating to have field experience.</li>
+                    </ul>
+                </p>
+                <p class="subtitle">Course completed (or currently enrolled in):
+                    <ol>
+                    <li>C#</li>
+                    <li>pre recs</li>
+                    <li>speech</li>
+                    <li>php</li>
+                    <li>intro to web development</li>
+                </ol>
+                </p>
+                <p class="subtitle">Hobbies:
+                    <ol type="a">
+                        <li>Riding dirtbikes</li>
+                        <li>Competitve Call of Duty</li>
+                        <li>Programming</li>
+                    </ol>
+                </p>
+                <p class="subtitle">Favorite Books:
+                    <ol type="i">
+                        <li>How to analyze people by RJ Anderson</li>
+                        <li>Train your brain for success by Roger Seip</li>
+                        <li>Tuesday's with Morrie by Mitch Albom</li>
+                    </ol>
+                </p>
+        </main>
+        <aside>
+                <p class="asidetitle">Code Examples
+                 <a href="https://github.com/bradyv71/IT-1050BradyValentine"><br>
+                    https://github.com/bradyv71/IT-1050BradyValentine</a>
+                </p>
+                <p class="asidetitle">Organizations
+                    <ul>
+                        <li>Game Battles</li>
+                        <li>Ultimate Major Gaming</li>
+                        <li>Check Mate Gaming</li>
+                        <li>Life group at Grace Church</li>
+                        
+                    </ul>
+                </p>
+        </aside>
+        <footer> 
+            <a href="mailto:valentinebrady1@gmail.com">valentinebrady1@gmail.com</a>
+        </footer>
+    </body>
+</html>
