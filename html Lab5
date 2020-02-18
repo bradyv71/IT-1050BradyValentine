@@ -1,0 +1,227 @@
+<html>
+    <head>
+        <title>James' Coffee Cafe</title>
+        <meta name="description" content="The best coffee in Cleveland!">
+        <meta name="keywords" content="coffee, cleveland, cafe">
+        <style>
+        body { 
+            font-family: Arial, Helvetica, sans-serif;
+            border: 2px solid black;
+            box-shadow: 8px 8px 0 0;
+            border-radius: 20px;
+            max-width: 900px;
+            
+           
+            }
+
+         .item1 {
+        grid-area: item1;
+        background-color:#eeeeee;}
+        .item2 {
+         grid-area: item2;
+         background-color:#eeeeee;}
+         .item3 {
+         grid-area: item3;
+         background-color:#eeeeee;
+         }
+         .item4 {
+         grid-area: item4;
+         background-color:#eeeeee;}
+         .item5 {
+          grid-area: item5;
+          background-color:#eeeeee;}
+        .item6 {
+         grid-area: item6;
+         background-color:#eeeeee;
+         }
+
+
+        .title { color: blue; }
+        .subtitle { font-size: 1.4em; color: orange; }
+        .footer { font-weight: bold; }
+        .quote { font-style: italic; margin-bottom: 15px; }
+
+        main div h2{
+            
+            padding: 10px 10px 0px 10px;
+            margin:10px 10px 10px 10px;
+            gap:10px;
+            background-color:#eeeeee;
+            text-align: center;
+            
+
+        }
+        
+        main .hacker{ 
+           
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-areas: 'item1 item2 item3' 'item4 item5 item6';
+            gap: 10px;
+            justify-content: center;
+            height: 150px;
+            padding: 10px 10px 10px 10px;
+            margin:10px 10px 10px 10px;
+            
+            
+            color: #4484CE;
+            text-align: center;
+            
+        }
+        main{
+            grid-gap:10px;
+            text-align: center;
+        }
+       
+       
+        .flex-container {
+            display:flex;
+            background-color: #4484CE;
+            flex-direction: row;
+            justify-content: space-evenly;
+            padding:10px 10px 10px 10px;
+            margin: 10px 0px 10px 0px;
+        }
+        .flex-container div a {
+            text-decoration: none;
+            font-weight: bold;
+            color:white;
+        }
+    
+        </style>
+    </head>
+    <body>
+    <header>
+        <a href="index.html"><img src="./images/coffee.png" style="height: 100px; width: auto;"></a>
+        <br>
+        <div class="flex-container">
+            <div><a href="coffees.html" style="color: yellow">Coffees</a></div>
+            <div><a href="events.html">Events</a></div>
+            <div><a href="community.html">Community</a></div>
+            <div><a href="locations.html">Locations</a></div>
+            <div><a href="about.html">About Us</a></div>
+          </div>
+    </header>
+    <main>
+        <div class="hacker">
+            <div class="item1"><h2>Al Dente's</h2>Our most popular light roast.</div>
+            <div class="item2"><h2>Hacker's Only</h2>A secret roast. Bring your computer!</div>
+            <div class="item3"><h2>Sue Flay's</h2>A quick medium roast.</div>  
+            <div class="item4"><h2>Bonfire</h2>A dark roast with a hint of marshmallow.</div>
+            <div class="item5"><h2>HTML Roast</h2>A marked up coffee roast.</div>
+            <div class="item6"><h2>Ginger Ayle</h2>Spiced up with a hint of ginger.</div>
+          </div>
+
+    </main>
+    
+    
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+    <head>
+        <title>James' Coffee Cafe</title>
+        <meta name="description" content="The best coffee in Cleveland!">
+        <meta name="keywords" content="coffee, cleveland, cafe">
+        <style>
+        body { 
+               display: grid;
+               grid-template-rows: 1fr 2fr 2fr;
+               grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+               grid-gap: .75em;
+               grid-auto-rows:minmax(100px, auto);
+               grid-template-areas: "head head head head head head"
+                                    "title title title title side side"
+                                    "title title title title side side";
+                                    grid-auto-flow: row;
+               
+            
+            font-family: Arial, Helvetica, sans-serif;
+            border: 2px solid black;
+            box-shadow: 8px 8px 0 0;
+            border-radius: 20px;
+            max-width: 900px; 
+            font-weight: bold;
+        
+         }
+         header{
+             grid-area:head;
+         }
+         aside{
+             grid-area:side;
+         }
+        .title { color: blue;
+         }
+        .subtitle { font-size: 1.4em; color: orange;
+        grid-area: subtitle; }
+        .footer { font-weight: bold; }
+        .quote { font-style: italic; margin-bottom: 15px; }
+        
+        main { 
+            margin: 10px 10px 10px 10px;
+            padding: 10px 10px 10px 10px;
+            grid-area: title;
+        }
+
+        .flex-container {
+            display:flex;
+            background-color: #4484CE;
+            flex-direction: row;
+            justify-content: space-evenly;
+            padding:10px 10px 10px 10px;
+            margin: 10px 0px 10px 0px;
+                
+        }
+        .flex-container div a {
+            text-decoration: none;
+            font-weight: bold;
+            color:white;}
+            
+        
+        </style>
+    </head>
+    
+    <body>
+    <header>
+        <a href="index.html"><img src="./images/coffee.png" style="height: 100px; width: auto;"></a>
+        <br>
+        <div class="flex-container">
+            <div><a href="coffees.html">Coffees</a></div>
+            <div><a href="events.html">Events</a></div>
+            <div><a href="community.html">Community</a></div>
+            <div><a href="locations.html">Locations</a></div>
+            <div><a href="about.html">About Us</a></div>
+          </div>
+    </header>
+       
+        <main>
+            <h1 class="title">Welcome to James' Coffee Cafe</h1>
+            <p>At James' Coffee Cafe, we showcase local coffee talents alongside coffee from some of the world's best coffee roasters!</p>
+            <img src="latte.jpeg" style="width:100%; height: auto;">
+            
+        </main>
+        <aside>
+            <p class="subtitle">From our customers::</p>
+            <p>
+                <div class="quote">This is the best Coffee House in Cleveland!</div>
+                <div class="quote">There's no place like James' Coffee House in Cleveland. Great coffee!</div>
+            </p>
+        </aside>
+
+    </div>
+  
+    </body>
+</html>
