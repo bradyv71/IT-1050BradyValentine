@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<head>
+<style>
+    .container {
+         margin: auto;
+         width: 50%;
+         border: 3px solid blue;
+         padding: 10px;
+         text-align: center;
+         background-color: orangered;
+
+    }
+    .info, .orders, .quanity, .chkbox{
+        color:blue;
+    }
+    
+    
+</style>
+</head>
+<body>
+    <div class="container">
+        <form action="https://www.w3schools.com/action_page.php" method="POST">
+          <div class="info">
+            <div class="info">
+              <label for="name">Full Name</label>
+            </div>
+            <div class="name">
+              <input type="text" id="name" name="name" autofocus required>
+            </div>
+          </div>
+          
+          <div class="info">
+            <div class="mail">
+              <label for="email">Email Address</label>
+            </div>
+            <div class="info">
+              <input type="email" id="email" name="email" required>
+            </div>
+          </div>
+
+          <div class="info">
+            <div class="num">
+              <label for="number">Phone Number</label>
+            </div>
+            <div class="info">
+              <input type="number" id="number" name="number" required>
+            </div>
+          </div>
+          <br>
+          
+        <div class="order">
+            <div class="orders">
+              <label for="coffee">Please select from List of Coffees</label>
+            </div>
+            <div class="order">
+              <select id="coff" name="coff">
+                <option value="Light Roast">Light Roast</option>
+                <option value="Medium Roast">Medium Roast</option>
+                <option value="Dark Roast">Dark Roast</option>
+                <option value="Black Tea">Black Tea</option>
+                <option value="Green Tea">Green Tea</option>
+              </select>
+            
+            </div>
+          </div>
+          <br>
+        
+          <div class="chkbox">
+            <div class="col">
+              
+                <label for="Toppings">Select Topping choices</label>
+            
+            </div>
+            <div class="col">
+                <input type="checkbox" id="Cream" name="Cream">
+                <label for="Cream">Cream</label>
+            </div>
+            <div class="col">
+                <input type="checkbox" id="Sugar" name="Sugar">
+                <label for="Sugar">Sugar</label>
+            </div>
+            <div class="col">
+                <input type="checkbox" id="Cinnamon" name="Cinnamon">
+                <label for="Cinnamon">Cinnamon</label>
+            </div>
+            <div class="col">
+                <input type="checkbox" id="Non-dairy creamer" name="Non-dairy creamer">
+                <label for="Non-dairy creamer">Non-dairy creamer</label>
+            </div>
+            <br>
+            <div class="quanity">
+                <Label for="quanity">Quanity</Label>
+                <br>
+                <input type="number" id="quanity" name="quanity">
+                
+              </div>
+              <br>
+          </div>
+          <div class="comment">
+            <textarea id="title" type="text" placeholder="write a comment...."></textarea>
+          </div>
+          <div class="end">
+              <br>
+            <input type="submit" value="Submit Order">
+          </div>
+        </form>
+      </div>
+</body>
